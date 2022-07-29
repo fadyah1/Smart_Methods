@@ -1,0 +1,38 @@
+title /speech (arabic) to text
+this is a html , css, javaScript code was written in a windows operating system the main purpose of this code is to transform the voice of  anything you may say in arabic into text
+
+***** the html contain *****
+
+title .............. to give a brief idea what this page is meant to do
+textbox......... named tArea to show the transform voice into text
+paragraph ...  to show the state of the recording if it is on or off
+button .......... named recording will fetch the recording (voice_recognition) function
+
+***** the css contain *****
+the Properties of each element in html like  colors,position,border,text size and font
+
+***** the javaScript ***** 
+SpeechRecognition..... it's an API used for web speech . 
+recognition.lang...........we specify that arabic is the language that we want the text that have been transform
+recognition.start...........when the recoding brgin
+
+there are some event that may ocuor
+1-onspeechend ........ when we catch a phrase and stop recording the html element "state"            
+change into of 
+2-onstart .................. when the recoding begin the html elment "state" change into on
+3-onresult ................ display what you said in arabic words in the html element tArea
+
+***How to use ***
+press the recode button and say something what you say will apper in the textbox 
+important note ** this project will work will with google chrome browser and may not function well with others
+
+Sources 
+https://www.youtube.com/watch?v=rwB6RqqCmXc
+https://www.studytonight.com/post/javascript-speech-recognition-example-speech-to-text
+https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API
+
+ 
+
+
+ 
+

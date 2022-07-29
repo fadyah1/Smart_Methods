@@ -1,0 +1,14 @@
+-first download arduino ide and install the program 
+https://www.arduino.cc/en/software
+
+-plug the arduino to your computer
+-check if the arduino is working by run a simple code 
+    from file --> example-->basics-->blink
+press the check button and then the arrow -> to run the code
+if there is a light that gose on and off then your arduino work jsut fine
+
+**esp32**
+from file -->preferences-->paste this link https://dl.espressif.com/dl/package_esp32_index.json
+ in the box called additional boards manager urls
+-from tools-->board arduino uno  --> board manger --> write in the serch esp32 and then press install
+-from tools-->board arduino uno  --> esp32 arduino you will find list of librarys 
